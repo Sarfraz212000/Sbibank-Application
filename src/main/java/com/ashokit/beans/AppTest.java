@@ -12,6 +12,9 @@ public class AppTest {
 		PaymentsService payment=context.getBean(PaymentsService.class);
 		payment.doPayments();
 
+		int x=10;
+		int y=20;
+
 	}
 
 }
